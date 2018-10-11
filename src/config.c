@@ -73,6 +73,7 @@ static void c_set_unity(char *v1, char *v2, void *t);
 static void c_add_type(char *v1, char *v2, void *t);
 static void c_add_alias(char *v1, char *v2, void *t);
 
+
 /* Fakery to keep the value passed to action() a void *,
    see usage in table and c_add_alias() below */
 static int script_number = SCRIPTALIAS;
